@@ -104,7 +104,7 @@ src/lowdelay/          the Python package (imported by the scripts)
 scripts/               the pipeline, stages 00-08 (see Section 5)
 results/               every numerical output (JSON/CSV) and one log file per stage
 figures/               all figures of the report (PNG, F01-F14)
-report/                the technical report (.docx)
+report/                the technical report (PDF)
 run_all.py             runs every stage in order
 requirements.txt       exact package versions
 ```
