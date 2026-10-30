@@ -3,7 +3,7 @@
 **Authors:** V N Shahid Ibrahim (ED24B064), Nida Paravath (ED24B062), Madhav Tripathi (ED24B059), Deepak Meena (ED24B045) - Department of Engineering Design, IIT Madras.
 
 ED5017 DSP course research project. Reproducible Python code, parameter files, dataset instructions and
-the generated report (`report/`).
+the report (`report/`).
 Repository: https://github.com/shahidibrahimvn015/low-delay-morphology-filtering
 
 ## Research question
