@@ -95,7 +95,8 @@ R = Report()
 R.title("Low-Group-Delay Morphology-Preserving Digital Filtering: Constrained FIR versus Phase-Equalized IIR",
         ["V N Shahid Ibrahim (ED24B064)", "Nida Paravath (ED24B062)", "Madhav Tripathi (ED24B059)", "Deepak Meena (ED24B045)",
          "ED5017 - Digital Signal Processing (research-oriented course project)",
-         "Department of Engineering Design, IIT Madras"])
+         "Department of Engineering Design, IIT Madras",
+         "Code repository: https://github.com/shahidibrahimvn015/low-delay-morphology-filtering"])
 
 # =========================================================================== abstract
 R.h("Abstract", 1)
@@ -733,7 +734,7 @@ R.table(["Candidate", "DS1 median PRD_nom (%)", "DS1 median PRD_opt (%)", "Laten
         f"EW-APE K with the lowest median PRD among latency-compliant candidates. Selected: slack = "
         f"{hp['ldfir_N_slack']}, K = {hp['ewape_K']}.", font=8)
 R.p("**Software.** " + ", ".join(f"{k} {v}" for k, v in prov.items()) + ". CVXPY solver: CLARABEL. "
-    "**Reproduction:** pip install -r requirements.txt, then python run_all.py. The datasets are downloaded by "
+    "**Code repository:** https://github.com/shahidibrahimvn015/low-delay-morphology-filtering. **Reproduction:** clone the repository, then pip install -r requirements.txt and python run_all.py. The datasets are downloaded by "
     "scripts/00_download_data.py from PhysioNet's AWS open-data mirror and are not redistributed. All parameters "
     "and seeds are in config/params.json, and every number in this report is generated from results/ by "
     "scripts/09_build_report.py.", align="left")
