@@ -149,7 +149,6 @@ python scripts/05_ptbxl_test.py
 python scripts/06_robustness.py
 python scripts/07_stats.py
 python scripts/08_figures.py
-python scripts/09_build_report.py
 ```
 
 ## 5. What each stage does
