@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 STAGES = ["00_download_data.py", "01_dev_design.py", "02_pareto.py", "03_synthetic.py", "04_mitdb_test.py",
-          "05_ptbxl_test.py", "06_robustness.py", "07_stats.py", "08_figures.py", "09_build_report.py"]
+          "05_ptbxl_test.py", "06_robustness.py", "07_stats.py", "08_figures.py"]
 
 if __name__ == "__main__":
     for s in STAGES:

@@ -101,8 +101,7 @@ src/lowdelay/          the Python package (imported by the scripts)
   data.py              MIT-BIH and PTB-XL loading, DS1/DS2 split, pre-processing
   bank.py              builds and saves the final filter bank
   util.py              paths, JSON I/O, software-version recording
-  docx_util.py         helpers used to write the Word report
-scripts/               the pipeline, stages 00-09 (see Section 5)
+scripts/               the pipeline, stages 00-08 (see Section 5)
 results/               every numerical output (JSON/CSV) and one log file per stage
 figures/               all figures of the report (PNG, F01-F14)
 report/                the technical report (.docx)
@@ -115,8 +114,6 @@ requirements.txt       exact package versions
 ### 4.1 Requirements
 * Python 3.11 or newer recommended (developed and tested with Python 3.13.1 on Windows 11).
 * About 150 MB of free disk space for the datasets, and an internet connection for the first run.
-* Optional: Microsoft Word on Windows. The report builder uses Office's equation converter to write native
-  Word equations; without it the report is still built, with plain-text equations.
 
 ### 4.2 Install
 ```
@@ -132,12 +129,12 @@ pip install -r requirements.txt
 python run_all.py                  # all stages, about 1.5-2 h on a laptop
 python run_all.py --skip-download  # same, but reuse data/ already downloaded
 ```
-`run_all.py` runs stages 00-09 in order, writes each stage's output to `results/log_<stage>.txt`, prints
+`run_all.py` runs stages 00-08 in order, writes each stage's output to `results/log_<stage>.txt`, prints
 the end of each log, and stops at the first stage that fails.
 
 ### 4.4 Run one stage at a time
 Each stage reads the outputs of the previous ones, so run them in this order the first time. After that,
-any single stage can be re-run on its own (e.g. only `09_build_report.py` after editing the report text).
+any single stage can be re-run on its own (e.g. only `08_figures.py` to redraw the figures).
 
 ```
 python scripts/00_download_data.py           # optional: --ptbxl 300  (number of PTB-XL records)
@@ -163,8 +160,7 @@ python scripts/08_figures.py
 | `05_ptbxl_test` | Independent test on PTB-XL at 500 Hz. Filters are redesigned from the same physical specification with the locked rules; nothing is re-tuned. | `ptbxl.csv` |
 | `06_robustness` | Coefficient quantization (24/16/12/10 bits), ablation of each design choice, latency-budget sweep. | `robust_*.csv`, `robust_ablation.json` |
 | `07_stats` | Medians and IQRs per record; paired Wilcoxon signed-rank tests (MO-LDFIR vs each filter) with Holm correction; bootstrap confidence intervals (2000 resamples). | `stats_summary.csv`, `stats_tests.csv` |
-| `08_figures` | Draws all figures F01-F14. | `figures/*.png` |
-| `09_build_report` | Writes the Word report. Every number and table is read from `results/`, so the report always matches the code. | `report/*.docx` |
+| `08_figures` | Draws all figures F01-F14 used in the report. | `figures/*.png` |
 
 ### Figures
 | Figure | Shows |
@@ -235,8 +231,6 @@ redistributed in this repository (`data/` is excluded by `.gitignore`).
 ## 10. Troubleshooting
 | Problem | Fix |
 |---|---|
-| `PermissionError` when building the report | The .docx is open in Word. Close it and re-run `09_build_report.py`. |
 | Download fails or stops | Check the internet connection and re-run `00_download_data.py`; finished files are skipped. |
 | `ModuleNotFoundError` | Activate the virtual environment and run `pip install -r requirements.txt`. |
-| Equations appear as plain text in the report | Microsoft Word / Office is not installed; the report is still complete. |
 | A stage fails | Read `results/log_<stage>.txt`; run the earlier stages first if their outputs are missing. |
