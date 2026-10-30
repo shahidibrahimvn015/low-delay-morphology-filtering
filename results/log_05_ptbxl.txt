@@ -1,0 +1,43 @@
+ECG low-pass (PTB-XL, 500 Hz): fs=500 Hz, passband 0-40 Hz (wp=0.5027 rad/sample), stopband >= 60 Hz (ws=0.7540 rad/sample), ripple <= 0.5 dB p-p (dp=0.0288), attenuation >= 40 dB (ds=0.01), latency <= 20 ms (10.00 samples)
+  LP-FIR       -> LP-FIR (N=46)
+  MP-FIR       -> MP-FIR (N=46)
+  Elliptic     -> Elliptic IIR (n=5)
+  Butterworth  -> Butterworth IIR (n=14)
+  Ell+AP-flat  -> Elliptic IIR + AP-flat (K=3)
+  LD-FIR-flat  -> LD-FIR-flat (N=85, D=10)
+  MO-LDFIR     -> MO-LDFIR (N=85, D=10)
+  EW-APE       -> Elliptic IIR + EW-APE (K=1, D<=10)
+  LP-FIR       LP-FIR (N=46)                              lat= 45.00 ms PRDpred= 1.85% mult=23 spec=True
+  MP-FIR       MP-FIR (N=46)                              lat=  9.99 ms PRDpred= 7.23% mult=46 spec=True
+  Elliptic     Elliptic IIR (n=5)                         lat= 12.32 ms PRDpred= 9.61% mult=9 spec=True
+  Butterworth  Butterworth IIR (n=14)                     lat= 33.32 ms PRDpred=10.58% mult=23 spec=True
+  Ell+AP-flat  Elliptic IIR + AP-flat (K=3)               lat= 78.56 ms PRDpred= 4.21% mult=21 spec=True
+  LD-FIR-flat  LD-FIR-flat (N=85, D=10)                   lat= 20.21 ms PRDpred= 2.95% mult=85 spec=True
+  MO-LDFIR     MO-LDFIR (N=85, D=10)                      lat= 20.01 ms PRDpred= 2.43% mult=85 spec=True
+  EW-APE       Elliptic IIR + EW-APE (K=1, D<=10)         lat= 19.99 ms PRDpred= 9.19% mult=13 spec=True
+[    0s] 1/300
+[    3s] 26/300
+[    5s] 51/300
+[    8s] 76/300
+[   10s] 101/300
+[   13s] 126/300
+[   15s] 151/300
+[   18s] 176/300
+[   20s] 201/300
+[   23s] 226/300
+[   25s] 251/300
+[   28s] 276/300
+
+== PTB-XL (300 records): median
+             prd_nom  prd_opt  ...  r_amp_err_pct  st_err_uV
+filter                         ...                          
+LP-FIR         1.892    1.892  ...          0.193      1.559
+MP-FIR         8.023    7.765  ...          3.275      2.074
+Elliptic      11.323   11.176  ...          5.923      1.183
+Butterworth   12.253   11.979  ...          4.622      1.077
+Ell+AP-flat    4.369    4.369  ...          1.978      3.756
+LD-FIR-flat    3.138    3.084  ...          0.658      1.377
+MO-LDFIR       2.552    2.541  ...          0.812      0.203
+EW-APE        10.818   10.686  ...          5.618      1.118
+
+[8 rows x 6 columns]

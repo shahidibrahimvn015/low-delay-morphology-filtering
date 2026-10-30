@@ -1,0 +1,50 @@
+[    6s] 100: LP-FIR=2.07  MP-FIR=10.36  Elliptic=17.02  Butterworth=17.37  Ell+AP-flat=6.25  LD-FIR-flat=3.76  MO-LDFIR=3.62  EW-APE=16.48
+[   12s] 103: LP-FIR=1.88  MP-FIR=6.78  Elliptic=10.86  Butterworth=11.51  Ell+AP-flat=3.65  LD-FIR-flat=2.87  MO-LDFIR=2.02  EW-APE=10.43
+[   18s] 105: LP-FIR=2.01  MP-FIR=4.46  Elliptic=4.80  Butterworth=5.71  Ell+AP-flat=3.01  LD-FIR-flat=2.60  MO-LDFIR=1.40  EW-APE=4.67
+[   23s] 111: LP-FIR=1.84  MP-FIR=4.87  Elliptic=5.94  Butterworth=6.95  Ell+AP-flat=2.90  LD-FIR-flat=2.70  MO-LDFIR=1.37  EW-APE=5.69
+[   29s] 113: LP-FIR=2.17  MP-FIR=7.42  Elliptic=11.97  Butterworth=12.32  Ell+AP-flat=4.42  LD-FIR-flat=3.18  MO-LDFIR=2.38  EW-APE=11.55
+[   34s] 117: LP-FIR=2.23  MP-FIR=4.57  Elliptic=6.29  Butterworth=6.99  Ell+AP-flat=3.03  LD-FIR-flat=2.75  MO-LDFIR=1.43  EW-APE=6.03
+[   40s] 121: LP-FIR=2.02  MP-FIR=4.24  Elliptic=5.01  Butterworth=5.87  Ell+AP-flat=2.82  LD-FIR-flat=2.51  MO-LDFIR=1.12  EW-APE=4.84
+[   45s] 123: LP-FIR=1.94  MP-FIR=6.57  Elliptic=10.71  Butterworth=11.33  Ell+AP-flat=3.45  LD-FIR-flat=2.75  MO-LDFIR=1.84  EW-APE=10.27
+[   51s] 200: LP-FIR=2.09  MP-FIR=5.93  Elliptic=7.63  Butterworth=8.46  Ell+AP-flat=3.75  LD-FIR-flat=2.85  MO-LDFIR=1.83  EW-APE=7.39
+[   56s] 202: LP-FIR=1.89  MP-FIR=4.22  Elliptic=4.58  Butterworth=5.61  Ell+AP-flat=2.68  LD-FIR-flat=2.46  MO-LDFIR=1.16  EW-APE=4.42
+[   62s] 210: LP-FIR=1.95  MP-FIR=4.97  Elliptic=5.80  Butterworth=6.67  Ell+AP-flat=3.12  LD-FIR-flat=2.56  MO-LDFIR=1.58  EW-APE=5.62
+[   68s] 212: LP-FIR=1.92  MP-FIR=9.36  Elliptic=14.87  Butterworth=15.36  Ell+AP-flat=5.30  LD-FIR-flat=3.39  MO-LDFIR=2.91  EW-APE=14.37
+[   73s] 213: LP-FIR=1.89  MP-FIR=4.44  Elliptic=4.71  Butterworth=5.83  Ell+AP-flat=2.90  LD-FIR-flat=2.51  MO-LDFIR=1.27  EW-APE=4.57
+[   79s] 214: LP-FIR=2.04  MP-FIR=4.53  Elliptic=5.10  Butterworth=6.06  Ell+AP-flat=3.08  LD-FIR-flat=2.67  MO-LDFIR=1.28  EW-APE=4.94
+[   85s] 219: LP-FIR=2.08  MP-FIR=4.92  Elliptic=6.26  Butterworth=7.03  Ell+AP-flat=3.09  LD-FIR-flat=2.60  MO-LDFIR=1.43  EW-APE=6.06
+[   90s] 221: LP-FIR=2.00  MP-FIR=5.28  Elliptic=7.24  Butterworth=8.04  Ell+AP-flat=3.09  LD-FIR-flat=2.70  MO-LDFIR=1.44  EW-APE=6.96
+[   96s] 222: LP-FIR=2.21  MP-FIR=11.21  Elliptic=19.39  Butterworth=19.13  Ell+AP-flat=6.91  LD-FIR-flat=4.01  MO-LDFIR=3.73  EW-APE=18.78
+[  102s] 228: LP-FIR=2.11  MP-FIR=5.98  Elliptic=7.83  Butterworth=8.69  Ell+AP-flat=3.58  LD-FIR-flat=2.86  MO-LDFIR=1.67  EW-APE=7.56
+[  107s] 231: LP-FIR=2.12  MP-FIR=7.86  Elliptic=13.38  Butterworth=13.75  Ell+AP-flat=4.04  LD-FIR-flat=3.05  MO-LDFIR=2.10  EW-APE=12.84
+[  112s] 232: LP-FIR=1.95  MP-FIR=7.52  Elliptic=11.97  Butterworth=12.60  Ell+AP-flat=3.98  LD-FIR-flat=3.07  MO-LDFIR=2.23  EW-APE=11.49
+[  118s] 233: LP-FIR=1.97  MP-FIR=4.14  Elliptic=4.80  Butterworth=5.65  Ell+AP-flat=2.72  LD-FIR-flat=2.48  MO-LDFIR=1.01  EW-APE=4.63
+[  124s] 234: LP-FIR=1.84  MP-FIR=5.00  Elliptic=6.63  Butterworth=7.81  Ell+AP-flat=2.66  LD-FIR-flat=2.55  MO-LDFIR=1.44  EW-APE=6.31
+
+== clean: median over DS2 records
+             prd_nom  prd_opt  ...  r_amp_err_pct  st_err_uV
+filter                         ...                          
+LP-FIR         2.005    2.005  ...          0.381      3.652
+MP-FIR         5.174    5.143  ...          2.645      4.837
+Elliptic       6.960    6.938  ...          4.776      4.786
+Butterworth    7.927    7.925  ...          3.404      5.109
+Ell+AP-flat    3.104    3.103  ...          1.584     10.185
+LD-FIR-flat    2.733    2.725  ...          0.741      3.949
+MO-LDFIR       1.533    1.508  ...          0.607      0.839
+EW-APE         6.655    6.633  ...          4.416      4.536
+
+[8 rows x 6 columns]
+
+== stress: median over DS2 records
+             prd_nom  prd_opt  ...  r_amp_err_pct  st_err_uV
+filter                         ...                          
+LP-FIR         4.608    4.608  ...          0.995      4.530
+MP-FIR         7.422    7.454  ...          2.889      5.292
+Elliptic       8.169    8.172  ...          4.339      5.311
+Butterworth    9.059    9.058  ...          3.293      5.579
+Ell+AP-flat    5.214    5.214  ...          1.620     10.208
+LD-FIR-flat    5.176    5.150  ...          1.372      4.827
+MO-LDFIR       4.759    4.749  ...          1.123      2.869
+EW-APE         7.972    7.974  ...          4.055      5.064
+
+[8 rows x 6 columns]

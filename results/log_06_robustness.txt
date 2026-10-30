@@ -1,0 +1,36 @@
+bits            10     12     16     24     64
+filter                                        
+LP-FIR       37.74  39.95  40.28  40.30  40.30
+MP-FIR       39.42  40.07  40.28  40.30  40.30
+Elliptic     40.06  40.06  40.05  40.05  40.05
+Butterworth  42.74  42.72  42.72  42.72  42.72
+Ell+AP-flat  40.05  40.06  40.05  40.05  40.05
+LD-FIR-flat  36.91  39.39  40.11  40.18  40.18
+MO-LDFIR     37.69  39.37  40.14  40.18  40.18
+EW-APE       40.06  40.06  40.05  40.05  40.05
+A done 3s
+  MO-LDFIR (proposed)                        PRDpred=2.545  DS2 median PRD_opt=1.443  lat=19.45 ms
+  - PSD weight (flat)                        PRDpred=3.038  DS2 median PRD_opt=2.710  lat=19.65 ms
+  - matched PSD (synthetic-ECG PSD)          PRDpred=2.562  DS2 median PRD_opt=1.652  lat=19.49 ms
+  - length slack (N = N_min)                 PRDpred=3.004  DS2 median PRD_opt=1.868  lat=19.56 ms
+  PSD floor 1e-4                             PRDpred=2.644  DS2 median PRD_opt=1.370  lat=19.43 ms
+  PSD floor 1e-2                             PRDpred=2.618  DS2 median PRD_opt=2.042  lat=19.59 ms
+  EW-APE exact criterion (proposed) K=2      PRDpred=4.400  DS2 median PRD_opt=3.076  lat=55.86 ms
+  AP: GD-kernel surrogate K(v) K=2           PRDpred=4.678  DS2 median PRD_opt=3.203  lat=51.88 ms
+  AP: PSD-weighted GD variance K=2           PRDpred=4.455  DS2 median PRD_opt=3.090  lat=54.22 ms
+  AP: flat GD variance (classical) K=2       PRDpred=4.906  DS2 median PRD_opt=3.699  lat=57.46 ms
+  AP: minimax GD (classical) K=2             PRDpred=15.855  DS2 median PRD_opt=14.223  lat=64.91 ms
+B done 132s
+  budget   5.0 ms: 
+  budget   8.0 ms: 
+  budget  10.0 ms: MP-FIR=7.37
+  budget  12.5 ms: MP-FIR=7.37, Elliptic=9.91, EW-APE=9.92, EW-APE_K=1.00
+  budget  15.0 ms: MP-FIR=7.37, Elliptic=9.91, EW-APE=9.92, EW-APE_K=1.00
+  budget  20.0 ms: MP-FIR=7.37, MO-LDFIR=2.55, MO-LDFIR_N=71.00, Elliptic=9.91, EW-APE=9.60, EW-APE_K=1.00
+  budget  25.0 ms: MP-FIR=7.37, MO-LDFIR=1.39, MO-LDFIR_N=68.00, Elliptic=9.91, EW-APE=8.08, EW-APE_K=1.00
+  budget  30.0 ms: MP-FIR=7.37, MO-LDFIR=1.18, MO-LDFIR_N=65.00, Elliptic=9.91, EW-APE=6.69, EW-APE_K=1.00
+  budget  40.0 ms: MP-FIR=7.37, MO-LDFIR=0.54, MO-LDFIR_N=64.00, Elliptic=9.91, EW-APE=5.20, EW-APE_K=1.00
+  budget  45.0 ms: LP-FIR=1.94, MP-FIR=7.37, MO-LDFIR=0.25, MO-LDFIR_N=65.00, Elliptic=9.91, EW-APE=5.04, EW-APE_K=2.00
+  budget  60.0 ms: LP-FIR=1.94, MP-FIR=7.37, MO-LDFIR=0.10, MO-LDFIR_N=75.00, Elliptic=9.91, EW-APE=4.40, EW-APE_K=2.00
+  budget  80.0 ms: LP-FIR=1.94, MP-FIR=7.37, MO-LDFIR=0.04, MO-LDFIR_N=89.00, Elliptic=9.91, EW-APE=4.40, EW-APE_K=3.00
+done 244s

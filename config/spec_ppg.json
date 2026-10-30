@@ -1,0 +1,10 @@
+{
+  "name": "PPG low-pass (125 Hz)",
+  "fs": 125.0,
+  "fp_hz": 8.0,
+  "fst_hz": 12.0,
+  "ap_db": 0.5,
+  "as_db": 40.0,
+  "latency_ms": 80.0,
+  "n_grid": 1024
+}

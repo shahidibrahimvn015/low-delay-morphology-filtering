@@ -1,0 +1,13 @@
+{
+  "seed": 2026,
+  "psd_floor": 0.001,
+  "dev_seconds_per_record": 600,
+  "ldfir_N_slack_candidates": [0, 8, 16, 32],
+  "ldfir_parsimony_rel_tol": 0.02,
+  "ewape_K_candidates": [1, 2, 3],
+  "apflat_K": 3,
+  "n_starts": 12,
+  "allpass_r_max": 0.97,
+  "mc_trials": 200,
+  "quant_bits": [24, 16, 12, 10]
+}

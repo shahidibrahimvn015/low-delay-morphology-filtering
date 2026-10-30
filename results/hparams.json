@@ -1,0 +1,8 @@
+{
+ "ldfir_N_slack": 32,
+ "ewape_K": 1,
+ "apflat_K": 3,
+ "seed": 2026,
+ "n_starts": 12,
+ "selected_on": "MIT-BIH DS1 (first 600 s/record)"
+}

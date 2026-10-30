@@ -1,0 +1,21 @@
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:160: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  a.scatter(s.tau_K_ms, s.prd_pred, s=28 if ar in PROPOSED else 18, marker=mk[ar], color=COLORS[ar],
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:218: UserWarning: You passed an edgecolor/edgecolors ('white') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  ax[1].scatter(fm[k]["prd_pred"], meas[k], marker=MARKERS[k], color=COLORS[k], s=40, label=k,
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\scripts\08_figures.py:221: UserWarning: You passed an edgecolor/edgecolors ('#008300') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  ax[1].scatter(v.prd_pred_synPSD, v.prd_meas_median, marker=MARKERS[k], facecolors="none",
+figures written

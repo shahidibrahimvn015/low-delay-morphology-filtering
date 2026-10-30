@@ -1,0 +1,67 @@
+MC done (1600 rows) 14s
+             prd_opt  prd_nom  ...  noise_red_db  prd_total_nom
+filter                         ...                             
+LP-FIR         2.364    2.364  ...        17.423          6.155
+MP-FIR         4.115    4.280  ...        17.418          7.972
+Elliptic       3.645    4.588  ...        18.269          7.859
+Butterworth    5.047    5.643  ...        17.723          8.837
+Ell+AP-flat    2.925    2.925  ...        18.264          6.645
+LD-FIR-flat    2.743    2.779  ...        17.141          6.549
+MO-LDFIR       1.381    1.381  ...        16.979          6.218
+EW-APE         3.506    4.400  ...        18.269          7.694
+
+[8 rows x 7 columns]
+sweeps done 31s
+        filter  prd_pred_synPSD  D_pred  prd_pred_mitPSD  prd_meas_median
+0       LP-FIR            1.950  16.000            1.943            2.293
+1       MP-FIR            4.179   3.427            7.367            4.048
+2     Elliptic            4.493   4.253            9.912            3.657
+3  Butterworth            5.806  10.824           10.948            5.040
+4  Ell+AP-flat            2.681  28.468            4.394            2.840
+5  LD-FIR-flat            2.429   7.074            3.038            2.655
+6     MO-LDFIR            1.414   6.999            2.545            1.355
+7       EW-APE            4.289   7.092            9.597            3.517
+             overshoot_pct  undershoot_pct  ...  delay50_ms  ringing_frac
+filter                                      ...                          
+LP-FIR              10.322          10.322  ...      44.444         0.003
+MP-FIR              21.444           0.000  ...      11.111         0.020
+Elliptic            15.286           0.000  ...      13.889         0.050
+Butterworth         20.519           0.000  ...      30.556         0.037
+Ell+AP-flat          8.339           6.193  ...      77.778         0.018
+LD-FIR-flat         11.991           9.137  ...      19.444         0.011
+MO-LDFIR            12.916           6.745  ...      19.444         0.016
+EW-APE              14.457           0.420  ...      19.444         0.060
+
+[8 rows x 6 columns]
+PPG low-pass (125 Hz): fs=125 Hz, passband 0-8 Hz (wp=0.4021 rad/sample), stopband >= 12 Hz (ws=0.6032 rad/sample), ripple <= 0.5 dB p-p (dp=0.0288), attenuation >= 40 dB (ds=0.01), latency <= 80 ms (10.00 samples)
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\src\lowdelay\designs.py:296: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=solver, verbose=verbose)
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_methods.py:53: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+  LP-FIR       -> LP-FIR (N=57)
+  MP-FIR       -> MP-FIR (N=57)
+  Elliptic     -> Elliptic IIR (n=5)
+  Butterworth  -> Butterworth IIR (n=14)
+  Ell+AP-flat  -> Elliptic IIR + AP-flat (K=3)
+  LD-FIR-flat  -> LD-FIR-flat (N=137, D=10)
+  MO-LDFIR     -> MO-LDFIR (N=137, D=10)
+  EW-APE       -> Elliptic IIR + EW-APE (K=1, D<=10)
+             prd_opt  prd_nom  timing_err_ms  peak_amp_err_pct  noise_red_db
+filter                                                                      
+LP-FIR         3.748    3.748          0.073             0.644        11.533
+MP-FIR         6.109    6.767          1.283             0.302        11.528
+Elliptic       6.490    7.069          1.725             0.772        12.328
+Butterworth    6.533    7.854          1.785             2.426        11.871
+Ell+AP-flat    4.891    4.891          0.242             0.664        12.332
+LD-FIR-flat    4.819    4.835          0.279             2.445        10.662
+MO-LDFIR       1.622    1.630          0.190             0.449        10.533
+EW-APE         6.487    7.060          1.722             0.771        12.333
+  LP-FIR       LP-FIR (N=57)                            lat= 224.00 ms PRDpred=  1.77 mult=29 spec=True
+  MP-FIR       MP-FIR (N=57)                            lat=  51.68 ms PRDpred=  6.97 mult=57 spec=True
+  Elliptic     Elliptic IIR (n=5)                       lat=  62.11 ms PRDpred= 11.21 mult=9 spec=True
+  Butterworth  Butterworth IIR (n=14)                   lat= 168.69 ms PRDpred= 11.40 mult=23 spec=True
+  Ell+AP-flat  Elliptic IIR + AP-flat (K=3)             lat= 391.03 ms PRDpred=  3.88 mult=21 spec=True
+  LD-FIR-flat  LD-FIR-flat (N=137, D=10)                lat=  79.30 ms PRDpred=  3.78 mult=137 spec=True
+  MO-LDFIR     MO-LDFIR (N=137, D=10)                   lat=  79.74 ms PRDpred=  3.11 mult=137 spec=True
+  EW-APE       Elliptic IIR + EW-APE (K=1, D<=10)       lat=  79.95 ms PRDpred= 11.19 mult=13 spec=True
+done 104s

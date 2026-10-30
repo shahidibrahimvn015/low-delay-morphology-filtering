@@ -1,0 +1,50 @@
+[    3s] As=30 dB LP-FIR -> 7 pts
+[    7s] As=30 dB Ell+AP-flat -> 5 pts
+[   15s] As=30 dB EW-APE -> 21 pts
+[   84s] As=30 dB MO-LDFIR -> 7 pts
+[   90s] As=30 dB LD-FIR-flat -> 7 pts
+[   90s] As=40 dB LP-FIR -> 7 pts
+[   90s] As=40 dB Ell+AP-flat -> 5 pts
+[  101s] As=40 dB EW-APE -> 21 pts
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\src\lowdelay\designs.py:296: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=solver, verbose=verbose)
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\cvxpy\atoms\quad_over_lin.py:62: RuntimeWarning: overflow encountered in square
+  squared = np.square(x_val)
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_methods.py:53: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+C:\Users\shahi\OneDrive\Desktop\DSP Research Project\src\lowdelay\designs.py:296: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver=solver, verbose=verbose)
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\cvxpy\atoms\quad_over_lin.py:62: RuntimeWarning: overflow encountered in square
+  squared = np.square(x_val)
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_methods.py:53: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims, initial, where)
+[  169s] As=40 dB MO-LDFIR -> 7 pts
+[  180s] As=40 dB LD-FIR-flat -> 7 pts
+[  180s] As=50 dB LP-FIR -> 7 pts
+[  180s] As=50 dB Ell+AP-flat -> 5 pts
+[  186s] As=50 dB EW-APE -> 21 pts
+[  300s] As=50 dB MO-LDFIR -> 7 pts
+[  305s] As=50 dB LD-FIR-flat -> 7 pts
+[  305s] As=60 dB LP-FIR -> 7 pts
+[  305s] As=60 dB Ell+AP-flat -> 5 pts
+[  317s] As=60 dB EW-APE -> 21 pts
+[  433s] As=60 dB MO-LDFIR -> 6 pts
+C:\Users\shahi\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\signal\_filter_design.py:1234: BadCoefficients: Badly conditioned filter coefficients (numerator): the results may be meaningless
+  b, a = normalize(b, a)
+[  444s] As=60 dB LD-FIR-flat -> 6 pts
+[  444s] TW=5 Hz LP-FIR -> 7 pts
+[  444s] TW=5 Hz Ell+AP-flat -> 5 pts
+[  451s] TW=5 Hz EW-APE -> 21 pts
+[  735s] TW=5 Hz MO-LDFIR -> 6 pts
+[  743s] TW=5 Hz LD-FIR-flat -> 6 pts
+[  743s] TW=10 Hz LP-FIR -> 7 pts
+[  743s] TW=10 Hz Ell+AP-flat -> 5 pts
+[  754s] TW=10 Hz EW-APE -> 21 pts
+[  915s] TW=10 Hz MO-LDFIR -> 6 pts
+[  926s] TW=10 Hz LD-FIR-flat -> 6 pts
+[  926s] TW=40 Hz LP-FIR -> 7 pts
+[  926s] TW=40 Hz Ell+AP-flat -> 5 pts
+[  935s] TW=40 Hz EW-APE -> 21 pts
+[  955s] TW=40 Hz MO-LDFIR -> 7 pts
+[  962s] TW=40 Hz LD-FIR-flat -> 7 pts
+done 323 points

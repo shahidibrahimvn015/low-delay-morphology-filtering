@@ -1,0 +1,58 @@
+[
+ {
+  "filter": "LP-FIR",
+  "prd_pred_synPSD": 1.949560111154762,
+  "D_pred": 16.0,
+  "prd_pred_mitPSD": 1.9428350902562477,
+  "prd_meas_median": 2.2927844463141716
+ },
+ {
+  "filter": "MP-FIR",
+  "prd_pred_synPSD": 4.179009929000558,
+  "D_pred": 3.4267437658290403,
+  "prd_pred_mitPSD": 7.366596791205583,
+  "prd_meas_median": 4.047595766477813
+ },
+ {
+  "filter": "Elliptic",
+  "prd_pred_synPSD": 4.49256549350059,
+  "D_pred": 4.253320807666997,
+  "prd_pred_mitPSD": 9.91243761217787,
+  "prd_meas_median": 3.6572832681026215
+ },
+ {
+  "filter": "Butterworth",
+  "prd_pred_synPSD": 5.805693288936839,
+  "D_pred": 10.823812244544504,
+  "prd_pred_mitPSD": 10.947754751667835,
+  "prd_meas_median": 5.039872122171064
+ },
+ {
+  "filter": "Ell+AP-flat",
+  "prd_pred_synPSD": 2.6813905716816837,
+  "D_pred": 28.46813193110507,
+  "prd_pred_mitPSD": 4.394022049312939,
+  "prd_meas_median": 2.839540825884578
+ },
+ {
+  "filter": "LD-FIR-flat",
+  "prd_pred_synPSD": 2.429389080035659,
+  "D_pred": 7.073693238790142,
+  "prd_pred_mitPSD": 3.0381992660181623,
+  "prd_meas_median": 2.655183757870096
+ },
+ {
+  "filter": "MO-LDFIR",
+  "prd_pred_synPSD": 1.4136266639729598,
+  "D_pred": 6.998967542047821,
+  "prd_pred_mitPSD": 2.5450948122499772,
+  "prd_meas_median": 1.3551738117099101
+ },
+ {
+  "filter": "EW-APE",
+  "prd_pred_synPSD": 4.288699980732108,
+  "D_pred": 7.092001274994268,
+  "prd_pred_mitPSD": 9.597365310540214,
+  "prd_meas_median": 3.517109744932351
+ }
+]

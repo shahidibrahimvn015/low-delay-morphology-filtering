@@ -1,0 +1,28 @@
+ECG low-pass (MIT-BIH, 360 Hz): fs=360 Hz, passband 0-40 Hz (wp=0.6981 rad/sample), stopband >= 60 Hz (ws=1.0472 rad/sample), ripple <= 0.5 dB p-p (dp=0.0288), attenuation >= 40 dB (ds=0.01), latency <= 20 ms (7.20 samples)
+PSD from 22 DS1 records; 75.6% of power below fp
+latency budget 20.0 ms -> design delay D = 7 samples; minimum feasible N = 39
+  MO-LDFIR N= 39: DS1 median PRD_nom=2.185%  PRD_opt=2.116%
+  MO-LDFIR N= 47: DS1 median PRD_nom=1.959%  PRD_opt=1.879%
+  MO-LDFIR N= 55: DS1 median PRD_nom=1.906%  PRD_opt=1.859%
+  MO-LDFIR N= 71: DS1 median PRD_nom=1.762%  PRD_opt=1.705%
+  EW-APE K=1: DS1 median PRD_nom=7.628%  PRD_opt=7.609%  tau_K=20.00 ms
+  EW-APE K=2: DS1 median PRD_nom=7.646%  PRD_opt=7.627%  tau_K=20.00 ms
+  EW-APE K=3: DS1 median PRD_nom=7.663%  PRD_opt=7.645%  tau_K=20.00 ms
+locked hyper-parameters: {'ldfir_N_slack': 32, 'ewape_K': 1, 'apflat_K': 3, 'seed': 2026, 'n_starts': 12, 'selected_on': 'MIT-BIH DS1 (first 600 s/record)'}
+  LP-FIR       -> LP-FIR (N=33)
+  MP-FIR       -> MP-FIR (N=33)
+  Elliptic     -> Elliptic IIR (n=5)
+  Butterworth  -> Butterworth IIR (n=13)
+  Ell+AP-flat  -> Elliptic IIR + AP-flat (K=3)
+  LD-FIR-flat  -> LD-FIR-flat (N=71, D=7)
+  MO-LDFIR     -> MO-LDFIR (N=71, D=7)
+  EW-APE       -> Elliptic IIR + EW-APE (K=1, D<=7.2)
+  LP-FIR       spec=True  latency= 44.44 ms  dtau_max=  0.00 ms  PRD_pred=  1.94%  mult=17
+  MP-FIR       spec=True  latency=  9.53 ms  dtau_max= 11.45 ms  PRD_pred=  7.37%  mult=33
+  Elliptic     spec=True  latency= 12.13 ms  dtau_max= 54.51 ms  PRD_pred=  9.91%  mult=9
+  Butterworth  spec=True  latency= 30.29 ms  dtau_max= 25.30 ms  PRD_pred= 10.95%  mult=21
+  Ell+AP-flat  spec=True  latency= 79.08 ms  dtau_max= 22.31 ms  PRD_pred=  4.39%  mult=21
+  LD-FIR-flat  spec=True  latency= 19.65 ms  dtau_max=  5.32 ms  PRD_pred=  3.04%  mult=71
+  MO-LDFIR     spec=True  latency= 19.45 ms  dtau_max=  4.65 ms  PRD_pred=  2.55%  mult=71
+  EW-APE       spec=True  latency= 20.00 ms  dtau_max= 53.95 ms  PRD_pred=  9.60%  mult=13
+done in 213 s

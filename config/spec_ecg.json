@@ -1,0 +1,10 @@
+{
+  "name": "ECG low-pass (MIT-BIH, 360 Hz)",
+  "fs": 360.0,
+  "fp_hz": 40.0,
+  "fst_hz": 60.0,
+  "ap_db": 0.5,
+  "as_db": 40.0,
+  "latency_ms": 20.0,
+  "n_grid": 1024
+}

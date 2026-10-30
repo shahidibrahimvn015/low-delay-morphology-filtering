@@ -1,0 +1,24 @@
+# Datasets (downloaded by scripts/00_download_data.py; see README for sources and licences)
+data/
+
+# Course handout
+ToUpload_*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Word lock / temp files
+~$*
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
